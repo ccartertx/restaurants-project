@@ -1,0 +1,43 @@
+.google-map-iframe {
+	width: 95%;
+}
+
+.title {
+	border: solid 1px blue;
+}
+
+.tagline {
+	border: solid 1px #DC143C;
+}
+
+.photos {
+	border: solid 1px black;
+}
+
+.about {
+	border: solid 1px #7FFF00;
+}
+
+.menu {
+	border: solid 1px red;
+}
+
+.address {
+	border: solid 1px green;
+}
+
+.contact {
+	border: solid 1px purple;
+}
+
+.maps {
+	border: solid 1px aqua;
+}
+
+.footer {
+	border: solid 1px gray;
+}
+
+.bottom-menu {
+	border: solid 1px black;
+}
