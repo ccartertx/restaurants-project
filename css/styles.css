@@ -1,43 +1,85 @@
+/* Page Styles */
+.page {
+	background-image: url(../img/ricepaper_v3.png);
+	background-position: top left repeat;
+	background-repeat: repeat;
+	font-family: "Source Sans Pro", Verdana, sans-serif;
+	color: #FFECD2;
+}
+
+.wrapper{
+	background: #c0392b;
+}
+
+h5 {
+	color: #FFB72F;
+	font-weight: bold;
+}
+
+a, a:visited {
+	color: #00B3B3;
+}
+
+hr {
+	border: 1px dashed #FFECD2;
+}
+
+/*Header, Title, Tagline styles */
+
+.header a {
+	text-decoration: none;
+	color: black;
+}
+
+.title {
+	/*border: solid 1px blue;*/
+	font-family: 'Alfa Slab One', Georgia, serif;
+	text-transform: uppercase;
+	font-weight: 800;
+	text-align: center;
+}
+
+.tagline {
+	/*border: solid 1px #DC143C;*/
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-size: 1.3em;
+	text-align: center;
+	color: #c0392b;
+}
+
+.tagline2 {
+	font-weight: lighter;
+}
+
+.photos {
+	padding-top: 3%;
+}
+
+.photos img {
+	border-radius: 10%;
+}
+
 .google-map-iframe {
 	width: 95%;
 }
 
-.title {
-	border: solid 1px blue;
-}
-
-.tagline {
-	border: solid 1px #DC143C;
-}
-
-.photos {
-	border: solid 1px black;
-}
-
-.about {
-	border: solid 1px #7FFF00;
-}
-
-.menu {
-	border: solid 1px red;
-}
-
-.address {
-	border: solid 1px green;
-}
-
-.contact {
-	border: solid 1px purple;
-}
-
-.maps {
-	border: solid 1px aqua;
-}
-
 .footer {
-	border: solid 1px gray;
+	padding: 2%;
+	font-size: .8em;
+	color: gray;
+}
+
+.footer a {
+	text-decoration: none;
+	color: gray;
+	display:inline-block;
+}
+
+.copyright {
+	float: left;
+	margin-bottom: 2%;
 }
 
 .bottom-menu {
-	border: solid 1px black;
+	float: right;
 }

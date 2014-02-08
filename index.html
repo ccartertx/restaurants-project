@@ -5,35 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chicken Lollypop | Indian Chinese Cuisine | Mumbai Style</title>
     <link rel="stylesheet" href="css/foundation.css" />
+    <link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/styles.css" />
     <script src="js/vendor/modernizr.js"></script>
   </head>
-  <body>
+  <body class="page">
     
     <div class="row">
-      <div class="small-12 columns">
-        <h1 class="title">Chicken Lollypop</h1>
-        <h4 class="tagline">Indian Chinese Cuisine | Mumbai Style</h4>
-      </div>
+      <a href="index.html"><div class="small-12 columns header">
+        <h1 class="title" id="responsive-header">Chicken Lollypop</h1>
+        <h5 class="tagline">Indian Chinese Cuisine <span class="tagline2">Mumbai Style</span></h5>
+      </div></a>
     </div>
+    <div class="wrapper">
     <div class="row">
             <div class="small-4 columns photos">
-          <p><img src="img/chicken_dish1.jpg" alt="Photo of chicken lollypop dish"/></p>
+          <p><img src="img/rice_dish.jpg" alt="Photo of garlic fried rice dish"/></p>
         </div>
             <div class="small-4 columns photos">
               <p><img src="img/chicken_art.jpg" alt="Photo of spray paint art on the wall"/></p>
             </div>
             <div class="small-4 columns photos">
-              <p><img src="img/chicken_dish2.jpg" alt="Photo of chicken lollypop with fried rice dish"/></p>
+              <p><img src="img/paneer.jpg" alt="Photo of the Chicken 65 dish"/></p>
             </div>        
           </div>
     <div class="row">
       <div class="small-12 columns about">
 	        
-	        <p>Blurb about the restaurant. Locavore leggings forage, mumblecore XOXO sriracha narwhal Echo Park you probably haven't heard of them Banksy typewriter pop-up. Godard aesthetic gluten-free flexitarian, craft beer iPhone you probably haven't heard of them ugh umami selfies. Locavore 8-bit trust fund, 3 wolf moon four loko fingerstache literally semiotics. Pitchfork chambray pop-up scenester, Williamsburg polaroid wayfarers. Typewriter pug skateboard cornhole PBR McSweeney's. American Apparel Terry Richardson biodiesel Etsy, Schlitz brunch artisan Odd Future fingerstache. Biodiesel 8-bit VHS disrupt, tofu post-ironic food truck 3 wolf moon try-hard kale chips jean shorts Schlitz.</p>
+	        <p>Mumbai-style Indian and Chinese fusion dishes. Everything is made to order from scratch and can take some time to prepare. Call ahead and carry out to minimize your wait time.</p>
+
+          <p>The chicken lollipop is an hors d'œuvre that is made from the middle (and sometimes inner) segments of chicken wings. The middle segment has one of the two bones removed, and the flesh on the segments is pushed to one end of the bone. These are then coated in a spicy red batter and deep fried. It is a popular item in Indian Chinese cuisine, served with Szechuan sauce.</p>
 	        
       </div>
     </div>
+
+    <hr />
 
     <div class="row">
           <div class="large-4 medium-4 columns menu">
@@ -81,9 +88,11 @@
           </div>
         </div>
 
+        <hr />
+
       <div class="row">
           <div class="large-8 medium-8 columns maps">
-            
+              <h5>Location</h5>
               <div class="show-for-small">
                 <img src="img/small_map.png" alt="map of restaurant location Braker Lane, east of 35" />
               </div>
@@ -94,11 +103,13 @@
                 <p>1005 E. Braker Ln <br/>
                 Austin, TX 78753</p>
                 <p>Inside the Braker Lane Food Mart.</p>
+                <p>Food trailer at 7th Street and 35 for lunch on weekdays and late night on weekends.</p>
+                <p>Call for more information about catering.</p>
               </div>
             
           </div>
           <div class="large-4 medium-4 columns contact">
-            
+              <h5>Contact</h5>
               <p>Hours: M - Sa | 3:00pm - 9:00pm</p>
               <p>Phone: <a href="tel:5124121260">512-412-1260</a></p>
               <p>To-Go: <a href="tel:5129099826">512-909-9826</a></p>
@@ -108,15 +119,17 @@
           </div>
         </div>
 
+      </div>
+
       <div class="row">
       <div class="small-12 columns">
         
 
         <div class="footer">
           
-          <p>&copy; Chicken Lollypop 2014</p>
+          <div class="copyright">&copy; Chicken Lollypop 2014</div>
             <div class="bottom-menu">
-              <a href="index.html">home</a> | <a href="about.html">about</a> | <a href="menu.html">menu</a> | <a href="location.html">location &amp; hours</a>
+              <a href="index.html">home</a> | <a href="menu.html">menu</a> | <a href="menu.html">location &amp; hours</a>
             </div>
           
         </div>
@@ -130,5 +143,12 @@
     <script>
       $(document).foundation();
     </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="js/jquery.fittext.js"></script>
+        <script>
+            //call fitText() function for the element you want to be fluid
+            $("#responsive-header").fitText();
+            //Font-size = 1/10th of the element's width
+        </script>
   </body>
 </html>
